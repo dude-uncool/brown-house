@@ -1,3 +1,21 @@
-.name {
-    padding-top: 10vh;
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.person {
+    box-shadow: 0 4vh 8vh 0 rgba(0, 0, 0, 0.2),
+        0 6vh 20vh 0 rgba(0, 0, 0, 0.19);
+    padding: 10vh;
+    margin: 0 2vh
+}
+
+.sosmed {
+    display: flex;
+    margin-top: 1vh;
+}
+
+.sosmedIcon {
+    width: 5vh;
+    margin: 0 0.5vh;
 }
