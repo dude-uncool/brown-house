@@ -1,7 +1,7 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
-  "description": "",
+  "name": "brown-house",
+  "version": "42.1.2.3.4.69",
+  "description": "skool project thing",
   "scripts": {
     "start": "vite",
     "dev": "vite",
