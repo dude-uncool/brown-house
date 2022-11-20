@@ -7,9 +7,13 @@
 }
 
 .App {
-    text-align: center;
     background-color: var(--bg);
     height: 100vh;
+    color: var(--secondary);
+}
+
+.home>* {
+    padding-left: 1vw;
 }
 
 .logo {
