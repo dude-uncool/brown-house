@@ -21,7 +21,7 @@ const Home: Component = () => {
                             {review.rating % 1 == 0.5 ? (<><img src={halfStar} /><br /></>) : ""}
                             ~ {review.name}<br />{review.class}<br />
                         </div>
-                        <img src={`/src/assets/pics of happy customers/${review.name} ${review.classShort}.jpg`} width="100vw" height="100vh" />
+                        <img src={`${import.meta.env.DEV ? "/src/" : "/"}assets/pics of happy customers/${review.name} ${review.classShort}.jpg`} width="100vw" height="100vh" />
                     </div>
                 )
                 }
