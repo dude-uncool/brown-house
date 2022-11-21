@@ -44,6 +44,13 @@
     width: 10vh;
 }
 
+.review {
+    display: flex;
+}
+
+.review>* {
+    margin: 0.5vh;
+}
 
 /* @keyframes logo-spin {
   from {
