@@ -1,0 +1,1 @@
+export const Lionel_J_P_Ginting_JH1_RB = await import('./Lionel J. P. Ginting JH1 RB.jpg');

@@ -46,10 +46,18 @@
 
 .review {
     display: flex;
+    box-shadow: 0 4vh 8vh 0 rgba(0, 0, 0, 0.2),
+        0 6vh 20vh 0 rgba(0, 0, 0, 0.19);
+    padding: 25px;
 }
 
 .review>* {
     margin: 0.5vh;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* @keyframes logo-spin {
