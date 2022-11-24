@@ -1,22 +1,33 @@
 .contacts {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 100vw;
 }
 
 .person {
-    box-shadow: 0 4vh 8vh 0 rgba(0, 0, 0, 0.2),
-        0 6vh 20vh 0 rgba(0, 0, 0, 0.19);
-    padding: 10vw;
-    margin: 0 2vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px;
+    margin: 5px;
+    width: 100vw;
 }
 
 .sosmed {
     display: flex;
-    margin-top: 1vh;
 }
 
 .sosmedIcon {
-    width: 2.5vh;
-    margin: 0 0.25vh;
+    width: 20px;
+}
+
+@media screen and (min-width: 600px) {
+    .person {
+        width: auto;
+        padding: 10vw;
+        font-size: calc(5px + 2vmin);
+    }
+
+    .sosmedIcon {
+        width: 5vmin;
+    }
 }

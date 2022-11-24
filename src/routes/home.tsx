@@ -19,7 +19,7 @@ const Home: Component = () => {
                                         <img src={star} />
                                     )}
                                 </Index>
-                                {review.rating % 1 == 0.5 ? (<><img src={halfStar} /><br /></>) : ""}
+                                {review.rating % 1 == 0.5 ? (<><img src={halfStar} /><br /></>) : ""}<br />
                                 ~ {review.name}<br />{review.class}<br />
                             </div>
                             <br /><br />

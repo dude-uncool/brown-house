@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root {
+    --main: #FCDF1A;
+    --secondary: #4F3302;
+    --bg: #FFEFCE;
+    --bg-topnav: #795A42;
+    --green: #2D9812;
+}
 
 body {
+    background-color: var(--bg);
+    color: var(--secondary);
     margin: 0;
     font-family: 'Ubuntu';
     -webkit-font-smoothing: antialiased;

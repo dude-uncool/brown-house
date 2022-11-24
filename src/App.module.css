@@ -8,7 +8,6 @@
 
 .App {
     background-color: var(--bg);
-    height: 100vh;
     color: var(--secondary);
 }
 
@@ -30,8 +29,8 @@
     align-items: center;
     font-size: calc(10px + 2vmin);
     background: var(--bg-topnav);
-    box-shadow: 0 4vh 8vh 0 rgba(0, 0, 0, 0.2),
-        0 6vh 20vh 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 1vh 2vh 2vh;
 }
 
@@ -40,16 +39,13 @@
     text-decoration: none;
 }
 
-.topNav {
-    width: 10vh;
-}
-
 .review {
     display: flex;
-    box-shadow: 0 4vh 8vh 0 rgba(0, 0, 0, 0.2),
-        0 6vh 20vh 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 25px;
-    margin: 10px;
+    width: 100vw;
+    margin: 5px;
 }
 
 .reviews {
@@ -58,11 +54,8 @@
     justify-content: space-around;
 }
 
-/* @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+@media screen and (min-width: 600px) {
+    .review {
+        width: auto;
+    }
+}
