@@ -20,7 +20,7 @@ const Contact: Component = () => {
                 Vanderrich<br />
                 JH1-Roger Bacon
                 <div class={styles.sosmeds}>
-                    <SosMed type="WhatsApp" to='tel: +62 895-1652-5394' />
+                    <SosMed type="WhatsApp" to='https://wa.me/6289516525394' />
                     <SosMed type="Instagram" to='https://www.instagram.com/vande.rrich/' />
                 </div>
             </div>
@@ -28,7 +28,7 @@ const Contact: Component = () => {
                 Attila<br />
                 JH1-Albert Einstein
                 <div class={styles.sosmeds}>
-                    <SosMed type="WhatsApp" to='tel: +62 822-9947-8110' />
+                    <SosMed type="WhatsApp" to='https://wa.me/6282299478110' />
                 </div>
             </div>
         </div >
